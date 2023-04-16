@@ -1,0 +1,22 @@
+.card,
+.dark {
+  padding: 0.1rem;
+  border-radius: 0.2rem;
+  box-shadow: 1px 0px 8px 2px rgb(168, 168, 168);
+}
+.dark {
+  /* color: white; */
+  box-shadow: 1px 0px 8px 2px rgb(43, 39, 39);
+}
+
+.card:hover,
+.dark:hover {
+  cursor: pointer;
+  transform: scale(1.12);
+}
+.container {
+  text-decoration: none;
+  color: inherit;
+  justify-content: center;
+  align-items: center;
+}

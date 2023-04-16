@@ -1,0 +1,44 @@
+.search,
+.darkMode {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  padding: 0rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 1px 1px 5px rgb(161, 161, 161);
+  color: rgb(114, 114, 114);
+}
+.darkMode {
+  background-color: rgb(77, 84, 84);
+
+  box-shadow: 1px 1px 5px rgb(37, 36, 36);
+  color: white;
+}
+.searchBar,
+.darkSearchMode {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.darkSearchMode {
+  background-color: rgb(77, 84, 84);
+  color: rgb(255, 255, 255);
+}
+.darkSearchMode::placeholder {
+  color: white;
+}
+.darkSearchMode {
+  outline: none;
+}
+.darkMode label {
+  color: white;
+  background-color: white;
+}
+.searchBar:focus {
+  outline: none;
+}

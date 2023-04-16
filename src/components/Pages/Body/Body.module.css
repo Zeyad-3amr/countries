@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 1rem;
+}
+.searchComp {
+  width: 70%;
+}
+.countries {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 3rem 3rem 3rem 5rem;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin: 1rem 5rem 5rem 5.5rem;
+}
+.NavLink {
+  text-decoration: none;
+  color: inherit;
+
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.spinner,
+.darkSpinner {
+  margin-top: 4rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.spinner span {
+  color: rgb(72, 72, 72);
+}
+.darkSpinner span {
+  color: rgb(255, 255, 255);
+}

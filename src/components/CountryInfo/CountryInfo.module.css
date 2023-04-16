@@ -1,0 +1,44 @@
+.Button,
+.darkBtn {
+  margin: 3rem;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  transition: ease-out 0.3s;
+}
+.Link,
+.darkLink {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px 1px rgb(178, 175, 175);
+}
+.darkLink {
+  color: white;
+  background-color: rgb(71, 78, 78);
+
+  box-shadow: 1px 1px 10px 1px rgb(47, 47, 47);
+}
+.Button:hover,
+.darkBtn:hover {
+  transform: scale(1.05);
+  transition: all 0.5s;
+}
+
+.spinner,
+.dark {
+  margin-top: 4rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.spinner span {
+  color: rgb(72, 72, 72);
+}
+.dark span {
+  color: rgb(255, 255, 255);
+}
